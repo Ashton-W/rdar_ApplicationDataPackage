@@ -1,6 +1,6 @@
 # rdar_ApplicationDataPackage
 
-Small project to demonstrate a bug introduced in **Xcode 6** with *Application Data Packages* in the iOS Simulator.
+Small project to demonstrate a bug introduced in **Xcode 6** and still present in **Xcode Version 7.0 beta (7A120f)** with *Test Application Data Packages* in the iOS Simulator.
 
 ---
 

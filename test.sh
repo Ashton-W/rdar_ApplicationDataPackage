@@ -8,6 +8,8 @@ read confirmation
 xcodebuild -project ApplicationPackage.xcodeproj -scheme 'ApplicationPackage' -sdk iphonesimulator test
 
 echo "> Scheme 'ApplicationPackage' should have failed tests."
+echo "> Press any key to continue"
+read confirmation
 
 xcodebuild -project ApplicationPackage.xcodeproj -scheme 'With Container' -sdk iphonesimulator test
 
